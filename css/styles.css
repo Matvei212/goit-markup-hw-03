@@ -24,22 +24,23 @@
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  margin: auto;
+
 }
 .container{
   /* padding-left: 215px;
   padding-right: 215px; */
-  margin-left: 215px;
-  margin-right: 215px;
-  width: 1170;
-  
+  width: 1200;
+  padding: 0 15px;
+  margin: auto;
   
 
 
 }
 a {
   text-decoration: none;
+
 }
+
 .list {
   list-style: none;
   padding: 0%;
@@ -99,7 +100,7 @@ a {
 .contacts{
   display: flex;
   align-items: center;
-  padding-left: 344px;
+  margin-left: auto;
 }
 
 .contacts .item:not(:last-child){
@@ -121,8 +122,8 @@ a {
 .hero {
   background-color: var(--second-background-color);
   text-align: center;
-  margin-bottom: 94px;
-  padding: 200px 452px 210px;
+  
+  padding: 200px 0px 200px;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -133,7 +134,7 @@ a {
   text-transform: uppercase;
   margin-top: 0%;
   margin-bottom: 30px;
-  min-width: 696px;
+  width: 696px;
   text-align: center;
 
 }
@@ -145,12 +146,13 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  display: block;
+  margin: 0px auto;
 }
 /* Секції */
 .section{
-  margin-top: 0px;
-  margin-bottom: 94px;
-  align-items: center;
+  padding: 94px 0;
+  width: 1200px;
 }
 
 .section-title {
@@ -163,6 +165,9 @@ a {
   margin-bottom: 50px;
 }
 /* Наші плюси */
+.feature-section{
+  padding-top: 0%;
+}
 .container .feature-list{
   display: flex;
  
@@ -178,7 +183,7 @@ a {
 }
 .feature-list .text {
   color: var(--primary-text-color);
-  line-height: 1.1743;
+  line-height: 1.743;
   margin:0%;
 }
 /* Чим ми займаэмося */
