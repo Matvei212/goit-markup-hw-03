@@ -16,6 +16,7 @@
   --pasiv-button-color: #188ce8;
   --active-button-color: #2196f3;
   --portfolio-button-color:#F5F4FA;
+  --color-border-card:#EEEEEE;
 }
 
 .body {
@@ -72,7 +73,7 @@ p {
   padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;;
 }
-.conteiner-nav {
+.container-nav {
   display: flex;
   align-items: center;
 }
@@ -160,7 +161,7 @@ p {
 .section{
   margin: auto;
   padding: 94px 0;
-  width: 1200px;
+
 }
 
 .section-title {
@@ -176,6 +177,9 @@ p {
 
 .container .feature-list{
   display: flex;
+    width: 1200px;
+      padding: 0 15px;
+      margin: 0px auto;
  
 }
 
@@ -204,6 +208,9 @@ p {
 
 .container .works{
   display: flex;
+    width: 1200px;
+      padding: 0 15px;
+      margin: 0px auto;
 }
  img{
   display: block;
@@ -219,6 +226,9 @@ p {
 /* Наша команда */
 .container .comand{
   display: flex;
+    width: 1200px;
+      padding: 0 15px;
+      margin: 0px auto;
 }
 .comand .item:not(:last-child){
   margin-right: 30px;
@@ -352,20 +362,13 @@ p {
 .work .work-item{
   width: 370px;
 }
-.work .work-item:not(:last-child){
-  margin-right: 10px;
-  margin-bottom: 30px;
-}
-.work .work-item:nth-child(3n+3){
-  margin:0px
-}
-.container-filters {
- 
-  width: 1200px;
-  
-}
+
+
 .work-card{
   padding: 20px 24px;
+  border-left: 1px solid var(--color-border-card);
+  border-right: 1px solid var(--color-border-card);
+  border-bottom: 1px solid var(--color-border-card);
 }
 .work .work-title {
   color: var(--title-text-color);
